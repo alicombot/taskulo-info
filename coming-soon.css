@@ -214,6 +214,7 @@ body {
   align-items: center;
   gap: 2rem;
   flex-wrap: wrap;
+  direction: ltr;
 }
 
 .countdown-item {
