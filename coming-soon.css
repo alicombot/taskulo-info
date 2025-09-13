@@ -255,6 +255,7 @@ body {
   font-size: 2.4rem;
   color: var(--text-primary);
   margin-bottom: 3rem;
+  margin-top: 3rem;
 }
 
 .features-grid {
@@ -378,18 +379,11 @@ body {
     font-size: 1.8rem;
   }
 
-  .countdown-container {
-    flex-direction: column;
-    gap: 1.5rem;
-  }
 
   .countdown-separator {
     display: none;
   }
 
-  .countdown-item {
-    min-width: 100px;
-  }
 
   .countdown-number {
     font-size: 3.2rem;
