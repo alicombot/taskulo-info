@@ -2,8 +2,7 @@
 
 document.addEventListener('DOMContentLoaded', function() {
     // Set the target date (30 days from now)
-    const targetDate = new Date();
-    targetDate.setDate(targetDate.getDate() + 30);
+    const targetDate = new Date(2025, 9, 13, 0, 0, 0).getTime();
     
     // Countdown timer elements
     const daysElement = document.getElementById('days');
@@ -15,7 +14,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // Countdown timer function
     function updateCountdown() {
         const now = new Date().getTime();
-        const distance = targetDate.getTime() - now;
+        const distance = targetDate - now;
         
         if (distance < 0) {
             // Countdown finished
@@ -223,3 +222,4 @@ document.addEventListener('DOMContentLoaded', function() {
     
     console.log('Coming Soon page loaded successfully! 🚀');
 });
+
